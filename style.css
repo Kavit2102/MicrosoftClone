@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+
+a {
+  @apply hover:underline;
+}
+
+.btn {
+  @apply w-fit bg-[#0067b8] px-2 py-1 text-white font-semibold rounded-sm;
+}
+
+.box {
+  @apply py-4 px-2 md:py-0 flex flex-col items-start gap-3 w-full h-fit;
+}
+
+.box h1 {
+  @apply text-xl font-semibold;
+}
+
+.box img {
+  @apply w-full;
+}
+
+.box button {
+  @apply text-[#0067b8] font-medium;
+}
+
+#upper-container,
+#lower-container {
+  @apply px-1 flex flex-col items-center md:flex-row lg:gap-5;
+}
+
+.icons i {
+  @apply text-3xl;
+}
+
+.footer-part {
+  @apply text-[#616161] text-[15px] font-semibold flex flex-col gap-2;
+}
+
+.footer-part ul {
+  @apply text-[10px] flex flex-col gap-2 font-normal;
+}
+
+@tailwind utilities;
